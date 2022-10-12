@@ -12,7 +12,7 @@ import com.app.batch13springboot.service.IMahasiswaService;
 @Service
 public class MahasiswaService implements IMahasiswaService{
 	
-	@Autowired
+	@Autowired 
 	IMahasiswaRepository iMahasiswaRepository;
 	
 	@Override
