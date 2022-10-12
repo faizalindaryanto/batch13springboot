@@ -2,15 +2,19 @@ package com.app.batch13springboot.repository.impl;
 
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import com.app.batch13springboot.model.MahasiswaModel;
 import com.app.batch13springboot.repository.IMahasiswaRepository;
+import com.app.batch13springboot.service.IMahasiswaService;
 
 @Repository
 public class MahasiswaRepository implements IMahasiswaRepository {
+	
+	
 	
 	JdbcTemplate jdbcTemplate; 
 	

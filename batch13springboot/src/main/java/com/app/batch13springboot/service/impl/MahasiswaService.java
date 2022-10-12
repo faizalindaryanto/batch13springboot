@@ -13,12 +13,12 @@ import com.app.batch13springboot.service.IMahasiswaService;
 public class MahasiswaService implements IMahasiswaService{
 	
 	@Autowired 
-	IMahasiswaRepository iMahasiswaRepository;
+	IMahasiswaRepository mahasiswaRepository;
 	
 	@Override
 	public MahasiswaModel insert(MahasiswaModel mahasiswaModel) {
 		// TODO Auto-generated method stub
-		return iMahasiswaRepository.insert(mahasiswaModel);
+		return mahasiswaRepository.insert(mahasiswaModel);
 	}
 
 	
