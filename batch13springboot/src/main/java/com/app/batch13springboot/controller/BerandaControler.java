@@ -31,6 +31,7 @@ public class BerandaControler {
 		
 		//@RequestBody for JSON
 		//@PathVariable for url
+		//@ResponseBody for data return
 		
 		@PostMapping("/post")
 		private MahasiswaModel post(@RequestBody MahasiswaModel mahasiswaModel) {
